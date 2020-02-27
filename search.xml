@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Java学习小结（1）</title>
+    <url>/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="第一个Java程序"><a href="#第一个Java程序" class="headerlink" title="第一个Java程序"></a>第一个Java程序</h1><p>实例：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">  public class HelloWorld&#123;</span><br><span class="line">  &#x2F;*第一个Java程序</span><br><span class="line">  它将打印Hello，World*&#x2F;</span><br><span class="line">  	public static void main(String [] args)&#123;</span><br><span class="line">    System.out.println(&quot;Hello,World);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="1-关键字-amp-标识符"><a href="#1-关键字-amp-标识符" class="headerlink" title="1. 关键字&amp;标识符"></a>1. 关键字&amp;标识符</h2><p>1.1 关键字的概念，特征</p>
+<p><strong>概念：Java关键字是事先定义好</strong>的对Java的编译器有特殊的意义，他们用来表示一种数据类型，或者表示程序的结构等，<strong>关键字不能用作变量名、方法名、类名、包名和参数。</strong></p>
+<p>特征：</p>
+<p>·完全小写</p>
+<p>·在sublime中有特殊颜色</p>
+<p>1.2 标识符的概念与规则</p>
+<p>1.2.1 什么是标识符？</p>
+<p>凡是可以由自己命名的地方都称为标识符.</p>
+<p>例: 项目名 ,包名 ,类名 .方法名</p>
+<p>1.2.1 命名规范</p>
+<p>①<strong>不可</strong>使用java关键字和保留字,但是可以包含关键字和保留字.</p>
+<p>②可以使用26个字母大小写,数字0-9,$和_.</p>
+<p>③    可以使用数字,但不可放在首位.</p>
+<p>④    <strong>长度理论上没有限制,但命名最好能反映出其作用,遵循”驼峰形式”,见命知意</strong></p>
+<p>⑤    <strong>包名全部小写，类名全部大驼峰式</strong></p>
+<p>⑥    <strong>变量名、方法名首字母小写，如果名称由多个单词组成，每个单词的首字母都要大写</strong></p>
+<p>⑦　<strong>常量（特指被 final 修饰的常量）名全部大写，如果是单个字母，需要大写，如果是多个单词，需要用下划线分开。并且都大写</strong></p>
+<h2 id="2-常量"><a href="#2-常量" class="headerlink" title="2.常量"></a>2.常量</h2><p>2.1 概念：<strong>常量的概念：在程序运行期间，固定不变的量</strong></p>
+<p>2.2 常量的分类：</p>
+<p>1.字符常量：凡是用单引号引起来的单个字符，就做字符常量。</p>
+<p>2.字符串常量：凡是用双引号引起来的部分，叫做字符串常量。</p>
+<p>3.整数常量：直接写上的数字，没有小数点。</p>
+<p>4.浮点数常量：直接写上的数字，有小数点。</p>
+<p>5.布尔常量：只有两种取值：true和false</p>
+<p>2.3基本数据类型：</p>
+<p>类型|字节数|二进制位数<br>-|:<br>byte(字节型）|1|8<br>short（短整型）|2|16<br>int（整型）|4|32<br>long（长整形）|8|64</p>
+<hr>
+<p>  注意事项：</p>
+<pre><code>Java中的默认类型：整数类型是 int 、浮点类型是double
+数据范围与字节数不一定相关，例如float数据范围比 long 更加广泛，但是float是4字节，1ong是8字节。    
+浮点型可能只是一个近似值，并非精确的值。
+浮点数当中默认类型是double。如果一定要使用float类型，需要加上一个后缀F。
+字符串不是基本类型，而是引用类型
+如果是整数，默认为int类型，如果一定要使用long类型，需要加上一个后缀L。推荐使用大写字母后缀。</code></pre><hr>
+<p>2.4创建变量</p>
+<p>格式：</p>
+<p>数据类型 变量名称 //创建了一个变量</p>
+<p>变量名称=数据值 //赋值，右给左</p>
+<p>我们也可以这样：</p>
+<p>数据类型 变量名称=数据值//创建变量同时，放入指定数据值</p>
+<hr>
+<pre><code>注意：
+1.如果创建多个变量，那么变量之间的名称不可以重复。 
+2.对于float和long类型来说，字母后缀F 和 L不要丢掉。
+3.没有进行赋值的变量，不能直接使用；一定要赋值之后，才能使用。</code></pre><h2 id="3-数据类型转换："><a href="#3-数据类型转换：" class="headerlink" title="3.数据类型转换："></a>3.数据类型转换：</h2><p>分为显式和隐式</p>
+<p>隐式：</p>
+<p>1.特点：无需处理，自动完成。<br>2.规则：数据范围从小到大</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">long num1&#x3D;100;</span><br><span class="line">System.out.println(num1);</span><br></pre></td></tr></table></figure>
+<p>左边为long类型，右边是int，int–&gt;long，符合数据范围从小到大要求。</p>
+<p>显式（强制类型转换）：</p>
+<p>1.需经特殊处理<br>2.格式：范围小的类型范围小的变量名=（范围小的类型）原本范围大的数据</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int num &#x3D;(int)100L;</span><br><span class="line">System.out.println(num);</span><br></pre></td></tr></table></figure>
+<p>左：int类型，右：long类型，不同</p>
+<p>格式：范围小的数据类型 范围小的变量名=（范围小的类型）原本范围大的数据；</p>
+]]></content>
+  </entry>
+  <entry>
     <title>说点什么呢</title>
     <url>/2020/02/25/%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88%E5%91%A2/</url>
     <content><![CDATA[<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><p>历时两天，终于完成了博客的搭建，还有些简陋，后期慢慢完善吧<br>接下来会更新leetcode刷题记录</p>

@@ -60,6 +60,13 @@
 <p>左：int类型，右：long类型，不同</p>
 <p>格式：范围小的数据类型 范围小的变量名=（范围小的类型）原本范围大的数据；</p>
 ]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java初学</tag>
+        <tag>学习笔记</tag>
+      </tags>
   </entry>
   <entry>
     <title>说点什么呢</title>

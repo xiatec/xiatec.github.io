@@ -44,12 +44,12 @@
     <link href="http://yoursite.com/2020/02/28/Bytedance02/"/>
     <id>http://yoursite.com/2020/02/28/Bytedance02/</id>
     <published>2020-02-27T16:11:26.000Z</published>
-    <updated>2020-03-12T17:15:51.660Z</updated>
+    <updated>2020-03-12T17:40:18.955Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;question：&lt;/p&gt;
-&lt;p&gt;links:&lt;a href=&quot;https://www.nowcoder.com/question/next?pid=16516564&amp;qid=362290&amp;tid=31366563&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;雀魂启动&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;links:&lt;a href=&quot;https://www.nowcoder.com/questionTerminal/448127caa21e462f9c9755589a8f2416?orderByHotValue=1&amp;mutiTagIds=665&amp;page=1&amp;onlyReference=false&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;雀魂启动!&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;examples：&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;IN:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;1 1 1 2 2 2 5 5 5 6 6 6 9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;OUT:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
@@ -63,6 +63,28 @@
     
     
       <category term="大厂笔试题目" scheme="http://yoursite.com/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有关类的小例子</title>
+    <link href="http://yoursite.com/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/"/>
+    <id>http://yoursite.com/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/</id>
+    <published>2020-02-27T16:11:26.000Z</published>
+    <updated>2020-03-12T17:17:01.042Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天讲一下java类的创建&lt;/p&gt;
+&lt;p&gt;例：我们要做一个时钟，让它具有分钟到60，小时加1的功能&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+    
+    
+      <category term="学习笔记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -115,75 +137,6 @@
     
     
       <category term="学习笔记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>有关类的小例子</title>
-    <link href="http://yoursite.com/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/"/>
-    <id>http://yoursite.com/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/</id>
-    <published>2020-02-27T16:11:26.000Z</published>
-    <updated>2020-03-12T17:17:01.042Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天讲一下java类的创建&lt;/p&gt;
-&lt;p&gt;例：我们要做一个时钟，让它具有分钟到60，小时加1的功能&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
-    
-    
-      <category term="学习笔记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>my first hexo blog</title>
-    <link href="http://yoursite.com/2020/02/25/my-first-hexo-blog/"/>
-    <id>http://yoursite.com/2020/02/25/my-first-hexo-blog/</id>
-    <published>2020-02-25T06:44:28.000Z</published>
-    <updated>2020-02-25T13:31:51.899Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;这是我的第一篇博客&quot;&gt;&lt;a href=&quot;#这是我的第一篇博客&quot; class=&quot;headerlink&quot; title=&quot;这是我的第一篇博客&quot;&gt;&lt;/a&gt;这是我的第一篇博客&lt;/h1&gt;&lt;p&gt;忙坏了，先写一个hello，world吧&lt;/p&gt;
-&lt;figure
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2020/02/24/hello-world/"/>
-    <id>http://yoursite.com/2020/02/24/hello-world/</id>
-    <published>2020-02-24T13:21:35.563Z</published>
-    <updated>2020-02-24T13:21:35.564Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-    
     
   </entry>
   

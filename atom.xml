@@ -48,7 +48,7 @@
     <link href="http://yoursite.com/2020/02/28/Bytedance01/"/>
     <id>http://yoursite.com/2020/02/28/Bytedance01/</id>
     <published>2020-02-27T16:11:26.000Z</published>
-    <updated>2020-03-12T13:42:03.878Z</updated>
+    <updated>2020-03-12T16:38:41.567Z</updated>
     
     <summary type="html">
     
@@ -67,7 +67,7 @@
       <category term="Bytedance" scheme="http://yoursite.com/categories/Bytedance/"/>
     
     
-      <category term="编程" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A8%8B/"/>
+      <category term="大厂笔试题目" scheme="http://yoursite.com/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
     
   </entry>
   
@@ -76,7 +76,7 @@
     <link href="http://yoursite.com/2020/02/28/Bytedance02/"/>
     <id>http://yoursite.com/2020/02/28/Bytedance02/</id>
     <published>2020-02-27T16:11:26.000Z</published>
-    <updated>2020-03-12T07:55:23.936Z</updated>
+    <updated>2020-03-12T16:47:23.354Z</updated>
     
     <summary type="html">
     
@@ -95,35 +95,7 @@
       <category term="Bytedance" scheme="http://yoursite.com/categories/Bytedance/"/>
     
     
-      <category term="编程" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java总结</title>
-    <link href="http://yoursite.com/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
-    <id>http://yoursite.com/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
-    <published>2020-02-27T16:11:26.000Z</published>
-    <updated>2020-02-28T16:32:05.422Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;写在前面：学习java也有一段时间了，最近在做一个项目，也正好趁假期时间，整理一下java学习的知识点，温故而知新，可以为师矣。&lt;/p&gt;
-&lt;h2 id=&quot;1-第一个Java程序&quot;&gt;&lt;a href=&quot;#1-第一个Java程序&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
-    
-    
-      <category term="学习笔记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="大厂笔试题目" scheme="http://yoursite.com/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
     
   </entry>
   
@@ -146,6 +118,42 @@
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
         
       
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+    
+    
+      <category term="学习笔记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java总结</title>
+    <link href="http://yoursite.com/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    <id>http://yoursite.com/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
+    <published>2020-02-27T16:11:26.000Z</published>
+    <updated>2020-03-12T16:36:45.435Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;写在前面：学习java也有一段时间了，最近在做一个项目，也正好趁假期时间，整理一下java学习的知识点，温故而知新，可以为师矣。&lt;/p&gt;
+&lt;h2 id=&quot;1-第一个Java程序&quot;&gt;&lt;a href=&quot;#1-第一个Java程序&quot; class=&quot;headerlink&quot; title=&quot;1. 第一个Java程序&quot;&gt;&lt;/a&gt;1. 第一个Java程序&lt;/h2&gt;&lt;p&gt;实例：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;  public class HelloWorld&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#x2F;*第一个Java程序&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  它将打印Hello，World*&amp;#x2F;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  	public static void main(String [] args)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    System.out.println(&amp;quot;Hello,World);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;2-关键字-amp-标识符&quot;&gt;&lt;a href=&quot;#2-关键字-amp-标识符&quot; class=&quot;headerlink&quot; title=&quot;2. 关键字&amp;amp;标识符&quot;&gt;&lt;/a&gt;2. 关键字&amp;amp;标识符&lt;/h2&gt;&lt;h3 id=&quot;2-1-关键字的概念，特征&quot;&gt;&lt;a href=&quot;#2-1-关键字的概念，特征&quot; class=&quot;headerlink&quot; title=&quot;2.1 关键字的概念，特征&quot;&gt;&lt;/a&gt;2.1 关键字的概念，特征&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;概念：Java关键字是事先定义好&lt;/strong&gt;的对Java的编译器有特殊的意义，他们用来表示一种数据类型，或者表示程序的结构等，&lt;strong&gt;关键字不能用作变量名、方法名、类名、包名和参数。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;特征：&lt;/p&gt;
+&lt;p&gt;·完全小写&lt;/p&gt;
+&lt;p&gt;·在sublime中有特殊颜色&lt;/p&gt;
+&lt;h3 id=&quot;2-2-标识符的概念与规则&quot;&gt;&lt;a href=&quot;#2-2-标识符的概念与规则&quot; class=&quot;headerlink&quot; title=&quot;2.2 标识符的概念与规则&quot;&gt;&lt;/a&gt;2.2 标识符的概念与规则&lt;/h3&gt;&lt;h4 id=&quot;2-2-1-什么是标识符？&quot;&gt;&lt;a href=&quot;#2-2-1-什么是标识符？&quot; class=&quot;headerlink&quot; title=&quot;2.2.1 什么是标识符？&quot;&gt;&lt;/a&gt;2.2.1 什么是标识符？&lt;/h4&gt;&lt;p&gt;凡是可以由自己命名的地方都称为标识符.&lt;/p&gt;
+&lt;p&gt;例: 项目名 ,包名 ,类名 .方法名&lt;/p&gt;
+&lt;h4 id=&quot;2-2-2-命名规范&quot;&gt;&lt;a href=&quot;#2-2-2-命名规范&quot; class=&quot;headerlink&quot; title=&quot;2.2.2 命名规范&quot;&gt;&lt;/a&gt;2.2.2 命名规范&lt;/h4&gt;&lt;p&gt;①&lt;strong&gt;不可&lt;/strong&gt;使用java关键字和保留字,但是可以包含关键字和保留字.&lt;/p&gt;
+&lt;p&gt;②可以使用26个字母大小写,数字0-9,$和_.&lt;/p&gt;
+&lt;p&gt;③    可以使用数字,但不可放在首位.&lt;/p&gt;
+&lt;p&gt;④    &lt;strong&gt;长度理论上没有限制,但命名最好能反映出其作用,遵循”驼峰形式”,见命知意&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;⑤    &lt;strong&gt;包名全部小写，类名全部大驼峰式&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;⑥    &lt;strong&gt;变量名、方法名首字母小写，如果名称由多个单词组成，每个单词的首字母都要大写&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;⑦　&lt;strong&gt;常量（特指被 final 修饰的常量）名全部大写，如果是单个字母，需要大写，如果是多个单词，需要用下划线分开。并且都大写&lt;/strong&gt;&lt;/p&gt;
     
     </summary>
     

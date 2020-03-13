@@ -187,6 +187,29 @@
       </tags>
   </entry>
   <entry>
+    <title>有关类的小例子</title>
+    <url>xiatec.github.io/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/</url>
+    <content><![CDATA[<p>今天讲一下java类的创建</p>
+<p>例：我们要做一个时钟，让它具有分钟到60，小时加1的功能</p>
+<a id="more"></a>
+
+<p>先做一个Dispaly的功能：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> javax.tools.Diagnostic;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Display</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> value=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> limit=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Display</span><span class="params">(<span class="keyword">int</span> limit)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.limit=limit;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">increase</span><span class="params">()</span></span>&#123;</span><br><span class="line">        value++;</span><br><span class="line">        <span class="keyword">if</span>(value==limit)&#123;</span><br><span class="line">            value=<span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getValue</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> value;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Display d= <span class="keyword">new</span> Display(<span class="number">24</span>);</span><br><span class="line">        <span class="keyword">for</span>(;;)&#123;</span><br><span class="line">            d.increase();</span><br><span class="line">            System.out.println(d.getValue());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这个功能，使得小时可以从0-24进行循环。如何让它与分钟联系在一起呢？</p>
+<p>我们还需要一个类，用来让分钟，小时进行加一的操作：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Clock</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> Display hour =<span class="keyword">new</span> Display(<span class="number">24</span>);</span><br><span class="line">    <span class="keyword">private</span> Display minute=<span class="keyword">new</span> Display(<span class="number">60</span>);</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">start</span><span class="params">()</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">while</span> (<span class="keyword">true</span>) &#123;</span><br><span class="line">            minute.increase();</span><br><span class="line">            <span class="keyword">if</span> (minute.getValue() == <span class="number">0</span>) &#123;</span><br><span class="line">                hour.increase();</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.printf(<span class="string">"%02d:%02d\n"</span>, hour.getValue(), minute.getValue());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Clock clock =<span class="keyword">new</span> Clock();</span><br><span class="line">        clock.start();</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这样，就让小时与分钟联系在了一起。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java总结</title>
     <url>xiatec.github.io/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<p>写在前面：学习java也有一段时间了，最近在做一个项目，也正好趁假期时间，整理一下java学习的知识点，温故而知新，可以为师矣。</p>
@@ -351,29 +374,6 @@
       </categories>
       <tags>
         <tag>学习总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>有关类的小例子</title>
-    <url>xiatec.github.io/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/</url>
-    <content><![CDATA[<p>今天讲一下java类的创建</p>
-<p>例：我们要做一个时钟，让它具有分钟到60，小时加1的功能</p>
-<a id="more"></a>
-
-<p>先做一个Dispaly的功能：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> javax.tools.Diagnostic;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Display</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> value=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> limit=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Display</span><span class="params">(<span class="keyword">int</span> limit)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.limit=limit;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">increase</span><span class="params">()</span></span>&#123;</span><br><span class="line">        value++;</span><br><span class="line">        <span class="keyword">if</span>(value==limit)&#123;</span><br><span class="line">            value=<span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getValue</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> value;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Display d= <span class="keyword">new</span> Display(<span class="number">24</span>);</span><br><span class="line">        <span class="keyword">for</span>(;;)&#123;</span><br><span class="line">            d.increase();</span><br><span class="line">            System.out.println(d.getValue());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>这个功能，使得小时可以从0-24进行循环。如何让它与分钟联系在一起呢？</p>
-<p>我们还需要一个类，用来让分钟，小时进行加一的操作：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Clock</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> Display hour =<span class="keyword">new</span> Display(<span class="number">24</span>);</span><br><span class="line">    <span class="keyword">private</span> Display minute=<span class="keyword">new</span> Display(<span class="number">60</span>);</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">start</span><span class="params">()</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">while</span> (<span class="keyword">true</span>) &#123;</span><br><span class="line">            minute.increase();</span><br><span class="line">            <span class="keyword">if</span> (minute.getValue() == <span class="number">0</span>) &#123;</span><br><span class="line">                hour.increase();</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.printf(<span class="string">"%02d:%02d\n"</span>, hour.getValue(), minute.getValue());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Clock clock =<span class="keyword">new</span> Clock();</span><br><span class="line">        clock.start();</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>这样，就让小时与分钟联系在了一起。</p>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
       </tags>
   </entry>
 </search>

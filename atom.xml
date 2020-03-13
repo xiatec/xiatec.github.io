@@ -3,11 +3,11 @@
   <title>Summer的小窝</title>
   
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="xiatec.github.io/atom.xml" rel="self"/>
   
-  <link href="http://xt233.gitee.io/xiatec/"/>
+  <link href="https//xiatec.github.io/"/>
   <updated>2020-03-13T13:20:30.082Z</updated>
-  <id>http://xt233.gitee.io/xiatec/</id>
+  <id>https//xiatec.github.io/</id>
   
   <author>
     <name>Summer</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>字节跳动笔试03---特征提取</title>
-    <link href="http://xt233.gitee.io/xiatec/2020/03/13/Bytedance03/"/>
-    <id>http://xt233.gitee.io/xiatec/2020/03/13/Bytedance03/</id>
+    <link href="2020/03/13/Bytedance03/"/>
+    <id>2020/03/13/Bytedance03/</id>
     <published>2020-03-13T09:21:26.000Z</published>
     <updated>2020-03-13T13:20:30.082Z</updated>
     
@@ -35,44 +35,44 @@
     </summary>
     
     
-      <category term="Bytedance" scheme="http://xt233.gitee.io/xiatec/categories/Bytedance/"/>
+      <category term="Bytedance" scheme="https//xiatec.github.io/categories/Bytedance/"/>
     
     
-      <category term="大厂笔试题目" scheme="http://xt233.gitee.io/xiatec/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+      <category term="大厂笔试题目" scheme="https//xiatec.github.io/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
     
-      <category term="查找" scheme="http://xt233.gitee.io/xiatec/tags/%E6%9F%A5%E6%89%BE/"/>
+      <category term="查找" scheme="https//xiatec.github.io/tags/%E6%9F%A5%E6%89%BE/"/>
     
-      <category term="哈希" scheme="http://xt233.gitee.io/xiatec/tags/%E5%93%88%E5%B8%8C/"/>
+      <category term="哈希" scheme="https//xiatec.github.io/tags/%E5%93%88%E5%B8%8C/"/>
     
   </entry>
   
   <entry>
     <title>Java正则表达式</title>
-    <link href="http://xt233.gitee.io/xiatec/2020/03/12/Java%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
-    <id>http://xt233.gitee.io/xiatec/2020/03/12/Java%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
+    <link href="2020/03/12/Java%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    <id>2020/03/12/Java%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
     <published>2020-03-12T13:30:26.000Z</published>
     <updated>2020-03-13T05:15:38.465Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Java正则表达式&quot;&gt;&lt;a href=&quot;#Java正则表达式&quot; class=&quot;headerlink&quot; title=&quot;Java正则表达式&quot;&gt;&lt;/a&gt;Java正则表达式&lt;/h2&gt;&lt;p&gt;正则表达式定义了字符串的模式。&lt;/p&gt;
+      &lt;h2 id=&quot;Java正则表达式&quot;&gt;&lt;a href=&quot;#Java正则表达式&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;headerlink&quot; title=&quot;Java正则表达式&quot;&gt;&lt;/a&gt;Java正则表达式&lt;/h2&gt;&lt;p&gt;正则表达式定义了字符串的模式。&lt;/p&gt;
 &lt;p&gt;正则表达式可以用来搜索、编辑或处理文本。&lt;/p&gt;
 &lt;p&gt;正则表达式并不仅限于某一种语言，但是在每种语言中有细微的差别。&lt;/p&gt;
     
     </summary>
     
     
-      <category term="Java" scheme="http://xt233.gitee.io/xiatec/categories/Java/"/>
+      <category term="Java" scheme="https//xiatec.github.io/categories/Java/"/>
     
     
-      <category term="Java" scheme="http://xt233.gitee.io/xiatec/tags/Java/"/>
+      <category term="Java" scheme="https//xiatec.github.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>字节跳动笔试01---从聪明的编辑</title>
-    <link href="http://xt233.gitee.io/xiatec/2020/02/28/Bytedance01/"/>
-    <id>http://xt233.gitee.io/xiatec/2020/02/28/Bytedance01/</id>
+    <link href="2020/02/28/Bytedance01/"/>
+    <id>2020/02/28/Bytedance01/</id>
     <published>2020-02-27T16:11:26.000Z</published>
     <updated>2020-03-13T13:17:42.143Z</updated>
     
@@ -90,19 +90,19 @@
     </summary>
     
     
-      <category term="Bytedance" scheme="http://xt233.gitee.io/xiatec/categories/Bytedance/"/>
+      <category term="Bytedance" scheme="https//xiatec.github.io/categories/Bytedance/"/>
     
     
-      <category term="大厂笔试题目" scheme="http://xt233.gitee.io/xiatec/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+      <category term="大厂笔试题目" scheme="https//xiatec.github.io/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
     
-      <category term="字符串" scheme="http://xt233.gitee.io/xiatec/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+      <category term="字符串" scheme="https//xiatec.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
     
   </entry>
   
   <entry>
     <title>字节跳动笔试02---雀魂启动！</title>
-    <link href="http://xt233.gitee.io/xiatec/2020/02/28/Bytedance02/"/>
-    <id>http://xt233.gitee.io/xiatec/2020/02/28/Bytedance02/</id>
+    <link href="2020/02/28/Bytedance02/"/>
+    <id>2020/02/28/Bytedance02/</id>
     <published>2020-02-27T16:11:26.000Z</published>
     <updated>2020-03-13T13:18:07.439Z</updated>
     
@@ -119,19 +119,19 @@
     </summary>
     
     
-      <category term="Bytedance" scheme="http://xt233.gitee.io/xiatec/categories/Bytedance/"/>
+      <category term="Bytedance" scheme="https//xiatec.github.io/categories/Bytedance/"/>
     
     
-      <category term="大厂笔试题目" scheme="http://xt233.gitee.io/xiatec/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+      <category term="大厂笔试题目" scheme="https//xiatec.github.io/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
     
-      <category term="动态规划" scheme="http://xt233.gitee.io/xiatec/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+      <category term="动态规划" scheme="https//xiatec.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
   <entry>
     <title>字节跳动笔试04---抓捕孔连顺</title>
-    <link href="http://xt233.gitee.io/xiatec/2020/02/28/Bytedance04/"/>
-    <id>http://xt233.gitee.io/xiatec/2020/02/28/Bytedance04/</id>
+    <link href="2020/02/28/Bytedance04/"/>
+    <id>2020/02/28/Bytedance04/</id>
     <published>2020-02-27T16:11:26.000Z</published>
     <updated>2020-03-13T13:21:02.583Z</updated>
     
@@ -148,43 +148,43 @@
     </summary>
     
     
-      <category term="Bytedance" scheme="http://xt233.gitee.io/xiatec/categories/Bytedance/"/>
+      <category term="Bytedance" scheme="https//xiatec.github.io/categories/Bytedance/"/>
     
     
-      <category term="大厂笔试题目" scheme="http://xt233.gitee.io/xiatec/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+      <category term="大厂笔试题目" scheme="https//xiatec.github.io/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
     
-      <category term="数学" scheme="http://xt233.gitee.io/xiatec/tags/%E6%95%B0%E5%AD%A6/"/>
+      <category term="数学" scheme="https//xiatec.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>Java总结</title>
-    <link href="http://xt233.gitee.io/xiatec/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
-    <id>http://xt233.gitee.io/xiatec/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
+    <link href="2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    <id>2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
     <published>2020-02-27T16:11:26.000Z</published>
     <updated>2020-03-13T05:17:33.332Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;写在前面：学习java也有一段时间了，最近在做一个项目，也正好趁假期时间，整理一下java学习的知识点，温故而知新，可以为师矣。&lt;/p&gt;
-&lt;h2 id=&quot;1-第一个Java程序&quot;&gt;&lt;a href=&quot;#1-第一个Java程序&quot; class=&quot;headerlink&quot; title=&quot;1. 第一个Java程序&quot;&gt;&lt;/a&gt;1. 第一个Java程序&lt;/h2&gt;&lt;p&gt;实例：&lt;/p&gt;
+&lt;h2 id=&quot;1-第一个Java程序&quot;&gt;&lt;a href=&quot;#1-第一个Java程序&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;headerlink&quot; title=&quot;1. 第一个Java程序&quot;&gt;&lt;/a&gt;1. 第一个Java程序&lt;/h2&gt;&lt;p&gt;实例：&lt;/p&gt;
 &lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;HelloWorld&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;comment&quot;&gt;/*第一个Java程序&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;  它将打印Hello，World*/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  	&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(String [] args)&lt;/span&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    System.out.println(&lt;span class=&quot;string&quot;&gt;&quot;Hello,World);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;2-关键字-amp-标识符&quot;&gt;&lt;a href=&quot;#2-关键字-amp-标识符&quot; class=&quot;headerlink&quot; title=&quot;2. 关键字&amp;amp;标识符&quot;&gt;&lt;/a&gt;2. 关键字&amp;amp;标识符&lt;/h2&gt;&lt;h3 id=&quot;2-1-关键字的概念，特征&quot;&gt;&lt;a href=&quot;#2-1-关键字的概念，特征&quot; class=&quot;headerlink&quot; title=&quot;2.1 关键字的概念，特征&quot;&gt;&lt;/a&gt;2.1 关键字的概念，特征&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;概念：Java关键字是事先定义好&lt;/strong&gt;的对Java的编译器有特殊的意义，他们用来表示一种数据类型，或者表示程序的结构等，&lt;strong&gt;关键字不能用作变量名、方法名、类名、包名和参数。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-关键字-amp-标识符&quot;&gt;&lt;a href=&quot;#2-关键字-amp-标识符&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;headerlink&quot; title=&quot;2. 关键字&amp;amp;标识符&quot;&gt;&lt;/a&gt;2. 关键字&amp;amp;标识符&lt;/h2&gt;&lt;h3 id=&quot;2-1-关键字的概念，特征&quot;&gt;&lt;a href=&quot;#2-1-关键字的概念，特征&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;headerlink&quot; title=&quot;2.1 关键字的概念，特征&quot;&gt;&lt;/a&gt;2.1 关键字的概念，特征&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;概念：Java关键字是事先定义好&lt;/strong&gt;的对Java的编译器有特殊的意义，他们用来表示一种数据类型，或者表示程序的结构等，&lt;strong&gt;关键字不能用作变量名、方法名、类名、包名和参数。&lt;/strong&gt;&lt;/p&gt;
     
     </summary>
     
     
-      <category term="Java" scheme="http://xt233.gitee.io/xiatec/categories/Java/"/>
+      <category term="Java" scheme="https//xiatec.github.io/categories/Java/"/>
     
     
-      <category term="学习总结" scheme="http://xt233.gitee.io/xiatec/tags/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+      <category term="学习总结" scheme="https//xiatec.github.io/tags/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>有关类的小例子</title>
-    <link href="http://xt233.gitee.io/xiatec/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/"/>
-    <id>http://xt233.gitee.io/xiatec/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/</id>
+    <link href="2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/"/>
+    <id>2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/</id>
     <published>2020-02-27T16:11:26.000Z</published>
     <updated>2020-03-13T05:15:09.505Z</updated>
     
@@ -196,10 +196,10 @@
     </summary>
     
     
-      <category term="Java" scheme="http://xt233.gitee.io/xiatec/categories/Java/"/>
+      <category term="Java" scheme="https//xiatec.github.io/categories/Java/"/>
     
     
-      <category term="Java" scheme="http://xt233.gitee.io/xiatec/tags/Java/"/>
+      <category term="Java" scheme="https//xiatec.github.io/tags/Java/"/>
     
   </entry>
   

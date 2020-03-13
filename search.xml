@@ -123,38 +123,6 @@
       </tags>
   </entry>
   <entry>
-    <title>字节跳动笔试01---从聪明的编辑</title>
-    <url>xiatec.github.io/2020/02/28/Bytedance01/</url>
-    <content><![CDATA[<p>question：</p>
-<p>links:<a href="https://www.nowcoder.com/questionTerminal/42852fd7045c442192fa89404ab42e92?orderByHotValue=1&mutiTagIds=665&page=1&onlyReference=false" target="_blank" rel="noopener">聪明的编辑</a></p>
-<p>请听题：给定N（可选作为埋伏点的建筑物数）、D（相距最远的两名特工间的距离的最大值）以及可选建筑的坐标，计算在这次行动中，大锤的小队有多少种埋伏选择。<br>注意：</p>
-<ol>
-<li><p>三个同样的字母连在一起，一定是拼写错误，去掉一个的就好啦：比如 helllo -&gt; hello </p>
-</li>
-<li><p>两对一样的字母（AABB型）连在一起，一定是拼写错误，去掉第二对的一个字母就好啦：比如 helloo -&gt; hello </p>
-</li>
-<li><p>上面的规则优先“从左到右”匹配，即如果是AABBCC，虽然AABB和BBCC都是错误拼写，应该优先考虑修复AABB，结果为AABCC</p>
-</li>
-</ol>
-<p>examples：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">IN:</span><br><span class="line">2</span><br><span class="line">helloo</span><br><span class="line">wooooooow</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">OUT:</span><br><span class="line">hello</span><br><span class="line">woow</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;n;</span><br><span class="line">    <span class="built_in">string</span> s;</span><br><span class="line">    <span class="keyword">while</span>(n--)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;s;</span><br><span class="line">        <span class="keyword">int</span> j=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;s.<span class="built_in">size</span>();i++)</span><br><span class="line">        &#123;</span><br><span class="line">            s[j++]=s[i];   <span class="comment">//j还没用</span></span><br><span class="line">            <span class="keyword">if</span>(j&gt;=<span class="number">3</span>&amp;&amp;s[j<span class="number">-1</span>]==s[j<span class="number">-2</span>]&amp;&amp;s[j<span class="number">-2</span>]==s[j<span class="number">-3</span>]) </span><br><span class="line">                j--;</span><br><span class="line">            <span class="keyword">if</span>(j&gt;=<span class="number">4</span>&amp;&amp;s[j<span class="number">-1</span>]==s[j<span class="number">-2</span>]&amp;&amp;s[j<span class="number">-3</span>]==s[j<span class="number">-4</span>]) </span><br><span class="line">                j--;</span><br><span class="line">        &#125;</span><br><span class="line">        s.erase(s.<span class="built_in">begin</span>()+j,s.<span class="built_in">end</span>());</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;s&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Bytedance</category>
-      </categories>
-      <tags>
-        <tag>大厂笔试题目</tag>
-        <tag>字符串</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>字节跳动笔试04---抓捕孔连顺</title>
     <url>xiatec.github.io/2020/02/28/Bytedance04/</url>
     <content><![CDATA[<p>question：</p>
@@ -187,26 +155,35 @@
       </tags>
   </entry>
   <entry>
-    <title>有关类的小例子</title>
-    <url>xiatec.github.io/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/</url>
-    <content><![CDATA[<p>今天讲一下java类的创建</p>
-<p>例：我们要做一个时钟，让它具有分钟到60，小时加1的功能</p>
-<a id="more"></a>
+    <title>字节跳动笔试01---从聪明的编辑</title>
+    <url>xiatec.github.io/2020/02/28/Bytedance01/</url>
+    <content><![CDATA[<p>question：</p>
+<p>links:<a href="https://www.nowcoder.com/questionTerminal/42852fd7045c442192fa89404ab42e92?orderByHotValue=1&mutiTagIds=665&page=1&onlyReference=false" target="_blank" rel="noopener">聪明的编辑</a></p>
+<p>请听题：给定N（可选作为埋伏点的建筑物数）、D（相距最远的两名特工间的距离的最大值）以及可选建筑的坐标，计算在这次行动中，大锤的小队有多少种埋伏选择。<br>注意：</p>
+<ol>
+<li><p>三个同样的字母连在一起，一定是拼写错误，去掉一个的就好啦：比如 helllo -&gt; hello </p>
+</li>
+<li><p>两对一样的字母（AABB型）连在一起，一定是拼写错误，去掉第二对的一个字母就好啦：比如 helloo -&gt; hello </p>
+</li>
+<li><p>上面的规则优先“从左到右”匹配，即如果是AABBCC，虽然AABB和BBCC都是错误拼写，应该优先考虑修复AABB，结果为AABCC</p>
+</li>
+</ol>
+<p>examples：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">IN:</span><br><span class="line">2</span><br><span class="line">helloo</span><br><span class="line">wooooooow</span><br></pre></td></tr></table></figure>
 
-<p>先做一个Dispaly的功能：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> javax.tools.Diagnostic;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Display</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> value=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> limit=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Display</span><span class="params">(<span class="keyword">int</span> limit)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.limit=limit;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">increase</span><span class="params">()</span></span>&#123;</span><br><span class="line">        value++;</span><br><span class="line">        <span class="keyword">if</span>(value==limit)&#123;</span><br><span class="line">            value=<span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getValue</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> value;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Display d= <span class="keyword">new</span> Display(<span class="number">24</span>);</span><br><span class="line">        <span class="keyword">for</span>(;;)&#123;</span><br><span class="line">            d.increase();</span><br><span class="line">            System.out.println(d.getValue());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">OUT:</span><br><span class="line">hello</span><br><span class="line">woow</span><br></pre></td></tr></table></figure>
 
-<p>这个功能，使得小时可以从0-24进行循环。如何让它与分钟联系在一起呢？</p>
-<p>我们还需要一个类，用来让分钟，小时进行加一的操作：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Clock</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> Display hour =<span class="keyword">new</span> Display(<span class="number">24</span>);</span><br><span class="line">    <span class="keyword">private</span> Display minute=<span class="keyword">new</span> Display(<span class="number">60</span>);</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">start</span><span class="params">()</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">while</span> (<span class="keyword">true</span>) &#123;</span><br><span class="line">            minute.increase();</span><br><span class="line">            <span class="keyword">if</span> (minute.getValue() == <span class="number">0</span>) &#123;</span><br><span class="line">                hour.increase();</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.printf(<span class="string">"%02d:%02d\n"</span>, hour.getValue(), minute.getValue());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Clock clock =<span class="keyword">new</span> Clock();</span><br><span class="line">        clock.start();</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>这样，就让小时与分钟联系在了一起。</p>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;n;</span><br><span class="line">    <span class="built_in">string</span> s;</span><br><span class="line">    <span class="keyword">while</span>(n--)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;s;</span><br><span class="line">        <span class="keyword">int</span> j=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;s.<span class="built_in">size</span>();i++)</span><br><span class="line">        &#123;</span><br><span class="line">            s[j++]=s[i];   <span class="comment">//j还没用</span></span><br><span class="line">            <span class="keyword">if</span>(j&gt;=<span class="number">3</span>&amp;&amp;s[j<span class="number">-1</span>]==s[j<span class="number">-2</span>]&amp;&amp;s[j<span class="number">-2</span>]==s[j<span class="number">-3</span>]) </span><br><span class="line">                j--;</span><br><span class="line">            <span class="keyword">if</span>(j&gt;=<span class="number">4</span>&amp;&amp;s[j<span class="number">-1</span>]==s[j<span class="number">-2</span>]&amp;&amp;s[j<span class="number">-3</span>]==s[j<span class="number">-4</span>]) </span><br><span class="line">                j--;</span><br><span class="line">        &#125;</span><br><span class="line">        s.erase(s.<span class="built_in">begin</span>()+j,s.<span class="built_in">end</span>());</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;s&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
-        <category>Java</category>
+        <category>Bytedance</category>
       </categories>
       <tags>
-        <tag>Java</tag>
+        <tag>大厂笔试题目</tag>
+        <tag>字符串</tag>
       </tags>
   </entry>
   <entry>
@@ -374,6 +351,29 @@
       </categories>
       <tags>
         <tag>学习总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>有关类的小例子</title>
+    <url>xiatec.github.io/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/</url>
+    <content><![CDATA[<p>今天讲一下java类的创建</p>
+<p>例：我们要做一个时钟，让它具有分钟到60，小时加1的功能</p>
+<a id="more"></a>
+
+<p>先做一个Dispaly的功能：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> javax.tools.Diagnostic;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Display</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> value=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> limit=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Display</span><span class="params">(<span class="keyword">int</span> limit)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.limit=limit;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">increase</span><span class="params">()</span></span>&#123;</span><br><span class="line">        value++;</span><br><span class="line">        <span class="keyword">if</span>(value==limit)&#123;</span><br><span class="line">            value=<span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getValue</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> value;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Display d= <span class="keyword">new</span> Display(<span class="number">24</span>);</span><br><span class="line">        <span class="keyword">for</span>(;;)&#123;</span><br><span class="line">            d.increase();</span><br><span class="line">            System.out.println(d.getValue());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这个功能，使得小时可以从0-24进行循环。如何让它与分钟联系在一起呢？</p>
+<p>我们还需要一个类，用来让分钟，小时进行加一的操作：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Clock</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> Display hour =<span class="keyword">new</span> Display(<span class="number">24</span>);</span><br><span class="line">    <span class="keyword">private</span> Display minute=<span class="keyword">new</span> Display(<span class="number">60</span>);</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">start</span><span class="params">()</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">while</span> (<span class="keyword">true</span>) &#123;</span><br><span class="line">            minute.increase();</span><br><span class="line">            <span class="keyword">if</span> (minute.getValue() == <span class="number">0</span>) &#123;</span><br><span class="line">                hour.increase();</span><br><span class="line">            &#125;</span><br><span class="line">            System.out.printf(<span class="string">"%02d:%02d\n"</span>, hour.getValue(), minute.getValue());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Clock clock =<span class="keyword">new</span> Clock();</span><br><span class="line">        clock.start();</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>这样，就让小时与分钟联系在了一起。</p>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
       </tags>
   </entry>
 </search>

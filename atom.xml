@@ -40,61 +40,6 @@
   </entry>
   
   <entry>
-    <title>字节跳动笔试01</title>
-    <link href="http://yoursite.com/2020/02/28/Bytedance01/"/>
-    <id>http://yoursite.com/2020/02/28/Bytedance01/</id>
-    <published>2020-02-27T16:11:26.000Z</published>
-    <updated>2020-03-12T17:13:37.582Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;question：&lt;/p&gt;
-&lt;p&gt;links:&lt;a href=&quot;https://www.nowcoder.com/questionTerminal/42852fd7045c442192fa89404ab42e92?orderByHotValue=1&amp;mutiTagIds=665&amp;page=1&amp;onlyReference=false&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;王大锤编辑&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;三个同样的字母连在一起，一定是拼写错误，去掉一个的就好啦：比如 helllo -&amp;gt; hello &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;两对一样的字母（AABB型）连在一起，一定是拼写错误，去掉第二对的一个字母就好啦：比如 helloo -&amp;gt; hello &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;上面的规则优先“从左到右”匹配，即如果是AABBCC，虽然AABB和BBCC都是错误拼写，应该优先考虑修复AABB，结果为AABCC&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Bytedance" scheme="http://yoursite.com/categories/Bytedance/"/>
-    
-    
-      <category term="大厂笔试题目" scheme="http://yoursite.com/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>字节跳动笔试02</title>
-    <link href="http://yoursite.com/2020/02/28/Bytedance02/"/>
-    <id>http://yoursite.com/2020/02/28/Bytedance02/</id>
-    <published>2020-02-27T16:11:26.000Z</published>
-    <updated>2020-03-12T17:40:18.955Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;question：&lt;/p&gt;
-&lt;p&gt;links:&lt;a href=&quot;https://www.nowcoder.com/questionTerminal/448127caa21e462f9c9755589a8f2416?orderByHotValue=1&amp;mutiTagIds=665&amp;page=1&amp;onlyReference=false&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;雀魂启动!&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;examples：&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;IN:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;1 1 1 2 2 2 5 5 5 6 6 6 9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;OUT:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;idea:回溯法，已有13张牌，我们从剩余的牌中依次从1到9选择一张牌作为第14张牌，然后判断是否已经构成胡牌&lt;/p&gt;
-&lt;p&gt;  判断胡牌思路：从1到9中选择一个数字作为雀头，然后判断剩余的数字是否包含4个三张牌&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Bytedance" scheme="http://yoursite.com/categories/Bytedance/"/>
-    
-    
-      <category term="大厂笔试题目" scheme="http://yoursite.com/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Java总结</title>
     <link href="http://yoursite.com/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
     <id>http://yoursite.com/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>

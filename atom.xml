@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-13T05:15:38.465Z</updated>
+  <updated>2020-03-13T13:20:30.082Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>字节跳动笔试03---特征提取</title>
+    <link href="http://yoursite.com/2020/03/13/Bytedance03/"/>
+    <id>http://yoursite.com/2020/03/13/Bytedance03/</id>
+    <published>2020-03-13T09:21:26.000Z</published>
+    <updated>2020-03-13T13:20:30.082Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;question：&lt;/p&gt;
+&lt;p&gt;links:&lt;a href=&quot;https://www.nowcoder.com/questionTerminal/5afcf93c419a4aa793e9b325d01957e2?f=discussion&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;特征提取&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;第一行包含一个正整数N，代表测试用例的个数。&lt;/p&gt;
+&lt;p&gt;每个测试用例的第一行包含一个正整数M，代表视频的帧数。&lt;/p&gt;
+&lt;p&gt;接下来的M行，每行代表一帧。其中，第一个数字是该帧的特征个数，接下来的数字是在特征的取值；比如样例输入第三行里，2代表该帧有两个猫咪特征，&amp;lt;1，1&amp;gt;和&amp;lt;2，2&amp;gt;&lt;br&gt;所有用例的输入特征总数和&amp;lt;100000&lt;/p&gt;
+&lt;p&gt;N满足1≤N≤100000，M满足1≤M≤10000，一帧的特征个数满足 ≤ 10000。&lt;br&gt;特征取值均为非负整数。 &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Bytedance" scheme="http://yoursite.com/categories/Bytedance/"/>
+    
+    
+      <category term="大厂笔试题目" scheme="http://yoursite.com/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+    
+      <category term="查找" scheme="http://yoursite.com/tags/%E6%9F%A5%E6%89%BE/"/>
+    
+      <category term="哈希" scheme="http://yoursite.com/tags/%E5%93%88%E5%B8%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>Java正则表达式</title>
@@ -82,6 +112,94 @@
     
     
       <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>字节跳动笔试01---从聪明的编辑</title>
+    <link href="http://yoursite.com/2020/02/28/Bytedance01/"/>
+    <id>http://yoursite.com/2020/02/28/Bytedance01/</id>
+    <published>2020-02-27T16:11:26.000Z</published>
+    <updated>2020-03-13T13:17:42.143Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;question：&lt;/p&gt;
+&lt;p&gt;links:&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Bytedance" scheme="http://yoursite.com/categories/Bytedance/"/>
+    
+    
+      <category term="大厂笔试题目" scheme="http://yoursite.com/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+    
+      <category term="字符串" scheme="http://yoursite.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>字节跳动笔试02---雀魂启动！</title>
+    <link href="http://yoursite.com/2020/02/28/Bytedance02/"/>
+    <id>http://yoursite.com/2020/02/28/Bytedance02/</id>
+    <published>2020-02-27T16:11:26.000Z</published>
+    <updated>2020-03-13T13:18:07.439Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;question：&lt;/p&gt;
+&lt;p&gt;links:&lt;a href=&quot;https://www.nowcoder.com/questionTerminal/448127caa21e462f9c9755589a8f2416?orderByHotValue=1&amp;mutiTagIds=665&amp;page=1&amp;onlyReference=false&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;雀魂启动!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;examples：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;IN:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;1 1 1 2 2 2 5 5 5 6 6 6 9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;OUT:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;idea:回溯法，已有13张牌，我们从剩余的牌中依次从1到9选择一张牌作为第14张牌，然后判断是否已经构成胡牌&lt;/p&gt;
+&lt;p&gt;  判断胡牌思路：从1到9中选择一个数字作为雀头，然后判断剩余的数字是否包含4个三张牌&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Bytedance" scheme="http://yoursite.com/categories/Bytedance/"/>
+    
+    
+      <category term="大厂笔试题目" scheme="http://yoursite.com/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+    
+      <category term="动态规划" scheme="http://yoursite.com/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>字节跳动笔试04---抓捕孔连顺</title>
+    <link href="http://yoursite.com/2020/02/28/Bytedance04/"/>
+    <id>http://yoursite.com/2020/02/28/Bytedance04/</id>
+    <published>2020-02-27T16:11:26.000Z</published>
+    <updated>2020-03-13T13:21:02.583Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;question：&lt;/p&gt;
+&lt;p&gt;links:&lt;a href=&quot;https://www.nowcoder.com/questionTerminal/c0803540c94848baac03096745b55b9b?orderByHotValue=1&amp;mutiTagIds=665&amp;page=1&amp;onlyReference=false&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;抓捕孔连顺&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;请听题：给定N（可选作为埋伏点的建筑物数）、D（相距最远的两名特工间的距离的最大值）以及可选建筑的坐标，计算在这次行动中，大锤的小队有多少种埋伏选择。&lt;br&gt;注意：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;两个特工不能埋伏在同一地点&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;三个特工是等价的：即同样的位置组合(A, B, C) 只算一种埋伏方法，不能因“特工之间互换位置”而重复使用&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Bytedance" scheme="http://yoursite.com/categories/Bytedance/"/>
+    
+    
+      <category term="大厂笔试题目" scheme="http://yoursite.com/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+    
+      <category term="数学" scheme="http://yoursite.com/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   

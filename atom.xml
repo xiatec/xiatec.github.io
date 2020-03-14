@@ -5,9 +5,9 @@
   <subtitle>生如逆旅，一苇以航</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://xiatec1.gitee.io/xiatec/"/>
+  <link href="https://gitee.com/xiatec1/xiatec1.git/"/>
   <updated>2020-03-13T13:20:30.082Z</updated>
-  <id>https://xiatec1.gitee.io/xiatec/</id>
+  <id>https://gitee.com/xiatec1/xiatec1.git/</id>
   
   <author>
     <name>Summer</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>字节跳动笔试03---特征提取</title>
-    <link href="https://xiatec1.gitee.io/xiatec/2020/03/13/Bytedance03/"/>
-    <id>https://xiatec1.gitee.io/xiatec/2020/03/13/Bytedance03/</id>
+    <link href="https://gitee.com/xiatec1/xiatec1.git/2020/03/13/Bytedance03/"/>
+    <id>https://gitee.com/xiatec1/xiatec1.git/2020/03/13/Bytedance03/</id>
     <published>2020-03-13T09:21:26.000Z</published>
     <updated>2020-03-13T13:20:30.082Z</updated>
     
@@ -35,21 +35,21 @@
     </summary>
     
     
-      <category term="Bytedance" scheme="https://xiatec1.gitee.io/xiatec/categories/Bytedance/"/>
+      <category term="Bytedance" scheme="https://gitee.com/xiatec1/xiatec1.git/categories/Bytedance/"/>
     
     
-      <category term="大厂笔试题目" scheme="https://xiatec1.gitee.io/xiatec/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+      <category term="大厂笔试题目" scheme="https://gitee.com/xiatec1/xiatec1.git/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
     
-      <category term="查找" scheme="https://xiatec1.gitee.io/xiatec/tags/%E6%9F%A5%E6%89%BE/"/>
+      <category term="查找" scheme="https://gitee.com/xiatec1/xiatec1.git/tags/%E6%9F%A5%E6%89%BE/"/>
     
-      <category term="哈希" scheme="https://xiatec1.gitee.io/xiatec/tags/%E5%93%88%E5%B8%8C/"/>
+      <category term="哈希" scheme="https://gitee.com/xiatec1/xiatec1.git/tags/%E5%93%88%E5%B8%8C/"/>
     
   </entry>
   
   <entry>
     <title>Java正则表达式</title>
-    <link href="https://xiatec1.gitee.io/xiatec/2020/03/12/Java%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
-    <id>https://xiatec1.gitee.io/xiatec/2020/03/12/Java%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
+    <link href="https://gitee.com/xiatec1/xiatec1.git/2020/03/12/Java%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    <id>https://gitee.com/xiatec1/xiatec1.git/2020/03/12/Java%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
     <published>2020-03-12T13:30:26.000Z</published>
     <updated>2020-03-13T05:15:38.465Z</updated>
     
@@ -62,17 +62,17 @@
     </summary>
     
     
-      <category term="Java" scheme="https://xiatec1.gitee.io/xiatec/categories/Java/"/>
+      <category term="Java" scheme="https://gitee.com/xiatec1/xiatec1.git/categories/Java/"/>
     
     
-      <category term="Java" scheme="https://xiatec1.gitee.io/xiatec/tags/Java/"/>
+      <category term="Java" scheme="https://gitee.com/xiatec1/xiatec1.git/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>字节跳动笔试01---从聪明的编辑</title>
-    <link href="https://xiatec1.gitee.io/xiatec/2020/02/28/Bytedance01/"/>
-    <id>https://xiatec1.gitee.io/xiatec/2020/02/28/Bytedance01/</id>
+    <link href="https://gitee.com/xiatec1/xiatec1.git/2020/02/28/Bytedance01/"/>
+    <id>https://gitee.com/xiatec1/xiatec1.git/2020/02/28/Bytedance01/</id>
     <published>2020-02-27T16:11:26.000Z</published>
     <updated>2020-03-13T13:17:42.143Z</updated>
     
@@ -90,19 +90,19 @@
     </summary>
     
     
-      <category term="Bytedance" scheme="https://xiatec1.gitee.io/xiatec/categories/Bytedance/"/>
+      <category term="Bytedance" scheme="https://gitee.com/xiatec1/xiatec1.git/categories/Bytedance/"/>
     
     
-      <category term="大厂笔试题目" scheme="https://xiatec1.gitee.io/xiatec/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+      <category term="大厂笔试题目" scheme="https://gitee.com/xiatec1/xiatec1.git/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
     
-      <category term="字符串" scheme="https://xiatec1.gitee.io/xiatec/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+      <category term="字符串" scheme="https://gitee.com/xiatec1/xiatec1.git/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
     
   </entry>
   
   <entry>
     <title>字节跳动笔试02---雀魂启动！</title>
-    <link href="https://xiatec1.gitee.io/xiatec/2020/02/28/Bytedance02/"/>
-    <id>https://xiatec1.gitee.io/xiatec/2020/02/28/Bytedance02/</id>
+    <link href="https://gitee.com/xiatec1/xiatec1.git/2020/02/28/Bytedance02/"/>
+    <id>https://gitee.com/xiatec1/xiatec1.git/2020/02/28/Bytedance02/</id>
     <published>2020-02-27T16:11:26.000Z</published>
     <updated>2020-03-13T13:18:07.439Z</updated>
     
@@ -119,19 +119,19 @@
     </summary>
     
     
-      <category term="Bytedance" scheme="https://xiatec1.gitee.io/xiatec/categories/Bytedance/"/>
+      <category term="Bytedance" scheme="https://gitee.com/xiatec1/xiatec1.git/categories/Bytedance/"/>
     
     
-      <category term="大厂笔试题目" scheme="https://xiatec1.gitee.io/xiatec/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+      <category term="大厂笔试题目" scheme="https://gitee.com/xiatec1/xiatec1.git/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
     
-      <category term="动态规划" scheme="https://xiatec1.gitee.io/xiatec/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+      <category term="动态规划" scheme="https://gitee.com/xiatec1/xiatec1.git/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
   <entry>
     <title>字节跳动笔试04---抓捕孔连顺</title>
-    <link href="https://xiatec1.gitee.io/xiatec/2020/02/28/Bytedance04/"/>
-    <id>https://xiatec1.gitee.io/xiatec/2020/02/28/Bytedance04/</id>
+    <link href="https://gitee.com/xiatec1/xiatec1.git/2020/02/28/Bytedance04/"/>
+    <id>https://gitee.com/xiatec1/xiatec1.git/2020/02/28/Bytedance04/</id>
     <published>2020-02-27T16:11:26.000Z</published>
     <updated>2020-03-13T13:21:02.583Z</updated>
     
@@ -148,19 +148,19 @@
     </summary>
     
     
-      <category term="Bytedance" scheme="https://xiatec1.gitee.io/xiatec/categories/Bytedance/"/>
+      <category term="Bytedance" scheme="https://gitee.com/xiatec1/xiatec1.git/categories/Bytedance/"/>
     
     
-      <category term="大厂笔试题目" scheme="https://xiatec1.gitee.io/xiatec/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
+      <category term="大厂笔试题目" scheme="https://gitee.com/xiatec1/xiatec1.git/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
     
-      <category term="数学" scheme="https://xiatec1.gitee.io/xiatec/tags/%E6%95%B0%E5%AD%A6/"/>
+      <category term="数学" scheme="https://gitee.com/xiatec1/xiatec1.git/tags/%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>Java总结</title>
-    <link href="https://xiatec1.gitee.io/xiatec/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
-    <id>https://xiatec1.gitee.io/xiatec/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
+    <link href="https://gitee.com/xiatec1/xiatec1.git/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    <id>https://gitee.com/xiatec1/xiatec1.git/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
     <published>2020-02-27T16:11:26.000Z</published>
     <updated>2020-03-13T05:17:33.332Z</updated>
     
@@ -174,17 +174,17 @@
     </summary>
     
     
-      <category term="Java" scheme="https://xiatec1.gitee.io/xiatec/categories/Java/"/>
+      <category term="Java" scheme="https://gitee.com/xiatec1/xiatec1.git/categories/Java/"/>
     
     
-      <category term="学习总结" scheme="https://xiatec1.gitee.io/xiatec/tags/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+      <category term="学习总结" scheme="https://gitee.com/xiatec1/xiatec1.git/tags/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>有关类的小例子</title>
-    <link href="https://xiatec1.gitee.io/xiatec/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/"/>
-    <id>https://xiatec1.gitee.io/xiatec/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/</id>
+    <link href="https://gitee.com/xiatec1/xiatec1.git/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/"/>
+    <id>https://gitee.com/xiatec1/xiatec1.git/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/</id>
     <published>2020-02-27T16:11:26.000Z</published>
     <updated>2020-03-13T05:15:09.505Z</updated>
     
@@ -196,10 +196,10 @@
     </summary>
     
     
-      <category term="Java" scheme="https://xiatec1.gitee.io/xiatec/categories/Java/"/>
+      <category term="Java" scheme="https://gitee.com/xiatec1/xiatec1.git/categories/Java/"/>
     
     
-      <category term="Java" scheme="https://xiatec1.gitee.io/xiatec/tags/Java/"/>
+      <category term="Java" scheme="https://gitee.com/xiatec1/xiatec1.git/tags/Java/"/>
     
   </entry>
   

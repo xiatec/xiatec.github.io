@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="写在前面：学习java也有一段时间了，最近在做一个项目，也正好趁假期时间，整理一下java学习的知识点，温故而知新，可以为师矣。 1. 第一个Java程序实例： 1234567  public class HelloWorld&amp;#123;  &#x2F;*第一个Java程序  它将打印Hello，World*&#x2F;  	public static void main(String [] args)&amp;#123;">
@@ -413,14 +413,14 @@
 
 
 <p>运行结果：</p>
-<p><img src="https://img-blog.csdn.net/20180726103700297?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzA1NTMw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt=""></p>
+<p><img data-src="https://img-blog.csdn.net/20180726103700297?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzA1NTMw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt=""></p>
 <h3 id="9-3函数的递归"><a href="#9-3函数的递归" class="headerlink" title="9.3函数的递归"></a>9.3函数的递归</h3><p>函数的递归是指在一个函数的内部调用自身的过程。</p>
 <p>递归必须要有结束条件，不然就会陷入无限递归状态，永远无法结束函数的调用。</p>
 <p>示例：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Di_gui_easy</span> </span>&#123;</span><br><span class="line"> </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line"> </span><br><span class="line">	<span class="keyword">int</span> sum = sum(<span class="number">50</span>);<span class="comment">// 利用递归求1~50的和</span></span><br><span class="line">	System.out.println(<span class="string">"1+2+3+4+....+47+38+49+50="</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    <span class="comment">// 利用递归求累加值</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">sum</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line"> </span><br><span class="line">	<span class="keyword">if</span> (i == <span class="number">1</span>) &#123;</span><br><span class="line">	    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line"> </span><br><span class="line">	<span class="keyword">return</span> i + sum(i - <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>运行结果：</p>
-<p><img src="https://img-blog.csdn.net/20180726103536879?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzA1NTMw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt=""></p>
+<p><img data-src="https://img-blog.csdn.net/20180726103536879?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzA1NTMw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt=""></p>
 <h2 id="10-类"><a href="#10-类" class="headerlink" title="10.类"></a>10.类</h2><p>·定义：是一类事物的描述，程序中为class；</p>
 <p>·属性：即一类事物具有的共有特点或者特性；程序中为全局变量（成员变量)</p>
 <p>·方法：一类事物具有的动作；</p>
@@ -454,8 +454,8 @@
       <i class="fa fa-chevron-left"></i> 有关类的小例子
     </a></div>
       <div class="post-nav-item">
-    <a href="/2020/02/28/Bytedance04/" rel="next" title="字节跳动笔试04---抓捕孔连顺">
-      字节跳动笔试04---抓捕孔连顺 <i class="fa fa-chevron-right"></i>
+    <a href="/2020/02/28/Bytedance02/" rel="next" title="字节跳动笔试02---雀魂启动！">
+      字节跳动笔试02---雀魂启动！ <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -673,6 +673,7 @@ setInterval("createtime()",250);
 
   
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 

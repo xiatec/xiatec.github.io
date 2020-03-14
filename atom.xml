@@ -129,6 +129,28 @@
   </entry>
   
   <entry>
+    <title>有关类的小例子</title>
+    <link href="https://github.com/xiatec/xiatec.github.io.git/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/"/>
+    <id>https://github.com/xiatec/xiatec.github.io.git/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/</id>
+    <published>2020-02-27T16:11:26.000Z</published>
+    <updated>2020-03-13T05:15:09.505Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天讲一下java类的创建&lt;/p&gt;
+&lt;p&gt;例：我们要做一个时钟，让它具有分钟到60，小时加1的功能&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="https://github.com/xiatec/xiatec.github.io.git/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="https://github.com/xiatec/xiatec.github.io.git/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
     <title>字节跳动笔试04---抓捕孔连顺</title>
     <link href="https://github.com/xiatec/xiatec.github.io.git/2020/02/28/Bytedance04/"/>
     <id>https://github.com/xiatec/xiatec.github.io.git/2020/02/28/Bytedance04/</id>
@@ -154,28 +176,6 @@
       <category term="大厂笔试题目" scheme="https://github.com/xiatec/xiatec.github.io.git/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/"/>
     
       <category term="数学" scheme="https://github.com/xiatec/xiatec.github.io.git/tags/%E6%95%B0%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>有关类的小例子</title>
-    <link href="https://github.com/xiatec/xiatec.github.io.git/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/"/>
-    <id>https://github.com/xiatec/xiatec.github.io.git/2020/02/28/Java%E5%B0%8F%E4%BE%8B%E5%AD%90/</id>
-    <published>2020-02-27T16:11:26.000Z</published>
-    <updated>2020-03-13T05:15:09.505Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天讲一下java类的创建&lt;/p&gt;
-&lt;p&gt;例：我们要做一个时钟，让它具有分钟到60，小时加1的功能&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Java" scheme="https://github.com/xiatec/xiatec.github.io.git/categories/Java/"/>
-    
-    
-      <category term="Java" scheme="https://github.com/xiatec/xiatec.github.io.git/tags/Java/"/>
     
   </entry>
   

@@ -10,20 +10,20 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"https//xiatec.github.io","root":"/blog/","scheme":"Gemini","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="question： links:雀魂启动! examples： 1234IN:1 1 1 2 2 2 5 5 5 6 6 6 9OUT:9  idea:回溯法，已有13张牌，我们从剩余的牌中依次从1到9选择一张牌作为第14张牌，然后判断是否已经构成胡牌   判断胡牌思路：从1到9中选择一个数字作为雀头，然后判断剩余的数字是否包含4个三张牌">
 <meta property="og:type" content="article">
 <meta property="og:title" content="字节跳动笔试02---雀魂启动！">
-<meta property="og:url" content="2020/02/28/Bytedance02/index.html">
+<meta property="og:url" content="http://yoursite.com/child/2020/02/28/Bytedance02/index.html">
 <meta property="og:site_name" content="Summer的小窝">
 <meta property="og:description" content="question： links:雀魂启动! examples： 1234IN:1 1 1 2 2 2 5 5 5 6 6 6 9OUT:9  idea:回溯法，已有13张牌，我们从剩余的牌中依次从1到9选择一张牌作为第14张牌，然后判断是否已经构成胡牌   判断胡牌思路：从1到9中选择一个数字作为雀头，然后判断剩余的数字是否包含4个三张牌">
 <meta property="og:locale" content="zh_CN">
@@ -34,7 +34,7 @@
 <meta property="article:tag" content="动态规划">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="2020/02/28/Bytedance02/">
+<link rel="canonical" href="http://yoursite.com/child/2020/02/28/Bytedance02/">
 
 
 <script id="page-configurations">
@@ -77,7 +77,7 @@
   </style>
 </noscript>
 
-<link rel="alternate" href="atom.xml" title="Summer的小窝" type="application/atom+xml">
+<link rel="alternate" href="/atom.xml" title="Summer的小窝" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -98,7 +98,7 @@
   <div class="site-meta">
 
     <div>
-      <a href="/blog/" target="_blank" class="brand" rel="start noopener">
+      <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">Summer的小窝</span>
         <span class="logo-line-after"><i></i></span>
@@ -119,27 +119,27 @@
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" target="_blank" rel="section noopener"><i class="fa fa-fw fa-home"></i>首页</a>
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/about/" target="_blank" rel="section noopener"><i class="fa fa-fw fa-user"></i>关于</a>
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
 
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" target="_blank" rel="section noopener"><i class="fa fa-fw fa-tags"></i>标签</a>
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" target="_blank" rel="section noopener"><i class="fa fa-fw fa-th"></i>分类</a>
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" target="_blank" rel="section noopener"><i class="fa fa-fw fa-archive"></i>归档</a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -193,7 +193,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="2020/02/28/Bytedance02/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/child/2020/02/28/Bytedance02/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/header.jpg">
@@ -231,7 +231,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="categories/Bytedance/" target="_blank" itemprop="url" rel="index noopener"><span itemprop="name">Bytedance</span></a>
+                  <a href="/categories/Bytedance/" itemprop="url" rel="index"><span itemprop="name">Bytedance</span></a>
                 </span>
             </span>
 
@@ -244,8 +244,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="2020/02/28/Bytedance02/#valine-comments" target="_blank" rel="noopener" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="2020/02/28/Bytedance02/" itemprop="commentCount"></span>
+    <a title="valine" href="/2020/02/28/Bytedance02/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/02/28/Bytedance02/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -297,8 +297,8 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="tags/大厂笔试题目/" target="_blank" rel="tag noopener"><i class="fa fa-tag">大厂笔试题目</i>
-              <a href="tags/动态规划/" target="_blank" rel="tag noopener"><i class="fa fa-tag">动态规划</i>
+              <a href="/tags/%E5%A4%A7%E5%8E%82%E7%AC%94%E8%AF%95%E9%A2%98%E7%9B%AE/" rel="tag"><i class="fa fa-tag">大厂笔试题目</i>
+              <a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" rel="tag"><i class="fa fa-tag">动态规划</i>
           </div>
 
         
@@ -307,12 +307,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="2020/02/28/Bytedance01/" target="_blank" rel="prev noopener" title="字节跳动笔试01---从聪明的编辑">
-      <i class="fa fa-chevron-left"></i> 字节跳动笔试01---从聪明的编辑
+    <a href="/2020/02/28/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" rel="prev" title="Java总结">
+      <i class="fa fa-chevron-left"></i> Java总结
     </a></div>
       <div class="post-nav-item">
-    <a href="2020/03/12/Java正则表达式/" target="_blank" rel="next noopener" title="Java正则表达式">
-      Java正则表达式 <i class="fa fa-chevron-right"></i>
+    <a href="/2020/02/28/Bytedance01/" rel="next" title="字节跳动笔试01---从聪明的编辑">
+      字节跳动笔试01---从聪明的编辑 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -399,20 +399,20 @@
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-          <a href="/archives/" target="_blank" rel="noopener">
+          <a href="/archives/">
         
           <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-            <a href="/categories/" target="_blank" rel="noopener">
+            <a href="/categories/">
           
         <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-            <a href="/tags/" target="_blank" rel="noopener">
+            <a href="/tags/">
           
         <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">标签</span></a>
@@ -528,30 +528,30 @@ setInterval("createtime()",250);
   </div>
 
   
-  <script src="lib/anime.min.js"></script>
-  <script src="lib/velocity/velocity.min.js"></script>
-  <script src="lib/velocity/velocity.ui.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
 
-<script src="js/utils.js"></script>
+<script src="/js/utils.js"></script>
 
-<script src="js/motion.js"></script>
-
-
-<script src="js/schemes/pisces.js"></script>
+<script src="/js/motion.js"></script>
 
 
-<script src="js/next-boot.js"></script>
+<script src="/js/schemes/pisces.js"></script>
 
 
-
-
-  
+<script src="/js/next-boot.js"></script>
 
 
 
 
   
-<script src="js/local-search.js"></script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
